@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Discos</title>
+  <link rel="stylesheet" th:href="@{/CSS/Style.css}">
+</head>
+<body>
+
+<h1>Discos</h1>
+
+<form action="/searchDiscs" method="get">
+  <label for="searchCriteria">Buscar por:</label>
+  <select name="searchCriteria" id="searchCriteria">
+    <option value="title" th:selected="${searchCriteria == 'title'}">Título</option>
+    <option value="author" th:selected="${searchCriteria == 'author'}">Autor</option>
+    <option value="tracks" th:selected="${searchCriteria == 'tracks'}">Número de Pistas</option>
+    <option value="year" th:selected="${searchCriteria == 'year'}">Año</option>
+  </select>
+
+  <label for="searchValue">Valor de búsqueda:</label>
+  <input type="text" name="searchValue" id="searchValue" required>
+
+  <button type="submit">Buscar</button>
+</form>
+
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Título</th>
+    <th>Autor</th>
+    <th>Número de Pistas</th>
+    <th>Año</th>
+    <th>Precio</th>
+    <th>Acciones</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="disco : ${listado}">
+    <td th:text="${disco.id}"></td>
+    <td th:text="${disco.title}"></td>
+    <td th:text="${disco.author}"></td>
+    <td th:text="${disco.tracks}"></td>
+    <td th:text="${disco.year}"></td>
+    <td th:text="${disco.price}"></td>
+    <td>
+      <a th:href="@{/discform/{id}(id=${disco.id})}"><button>Modificar</button></a>
+      <a th:href="@{/deleteDisc/{id}(id=${disco.id})}"><button>Eliminar</button></a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+<a th:href="@{/discform}">
+  <button>Nuevo Disco</button>
+</a>
+
+<a th:href="@{/index}">
+  <button>Volver al inicio</button>
+</a>
+
+<br />
+
+<div th:if="${mensaje}">
+  <p th:text="${mensaje}"></p>
+</div>
+
+</body>
+</html>

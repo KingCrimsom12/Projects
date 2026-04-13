@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Peliculas</title>
+    <link rel="stylesheet" th:href="@{/CSS/Style.css}">
+</head>
+<body>
+<h1>Formulario de Peliculas</h1>
+
+<form th:action="@{/submitFilm}" th:object="${film}" method="post">
+
+    <label for="id">Id:</label>
+    <input type="text" th:field="*{id}" id="id" readonly />
+    <br />
+
+    <input type="hidden" th:field="*{id}" />
+    <br />
+
+    <label for="title">Título:</label>
+    <input type="text" th:field="*{title}" id="title" required />
+    <br />
+
+    <label for="director">Director:</label>
+    <input type="text" th:field="*{filmDirector}" id="director" required />
+    <br />
+
+    <label for="year">Año:</label>
+    <input type="date" th:field="*{year}" id="year" required />
+
+    <br />
+
+    <label for="price">Precio:</label>
+    <input type="number" th:field="*{price}" id="price" step="0.01" required />
+    <br />
+
+    <label for="format">Formato:</label>
+    <select th:field="*{format}" id="format" required>
+        <option th:each="format : ${T(com.prueba.PracticaSpringBoot.Enum.Format).values()}"
+                th:value="${format}"
+                th:text="${format}"></option>
+    </select>
+    <br />
+
+    <button type="submit">Enviar</button>
+</form>
+
+<a th:href="@{/films}">
+    <button>Volver al inicio</button>
+</a>
+
+<div th:if="${mensaje}">
+    <p th:text="${mensaje}"></p>
+</div>
+
+</body>
+</html>

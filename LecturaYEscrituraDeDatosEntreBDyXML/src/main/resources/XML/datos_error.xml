@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<empleados_departamentos>
+	<departamento codDepto="1100">
+		<nombreDpto>GERENCIA</nombreDpto>
+		<ciudad>MADRID</ciudad>
+		<codDirector></codDirector>
+	</departamento>
+	<departamento codDepto="1200">
+		<nombreDpto>GERENCIA</nombreDpto>
+		<ciudad>VALENCIA</ciudad>
+		<codDirector>31.840.269</codDirector>
+	</departamento>
+	<empleado nDIEmp="2.130.444">
+		<nomEmp>Samir Duran</nomEmp>
+		<sexEmp>M</sexEmp>
+		<fecNac>1990-11-25</fecNac>
+		<fecIncorporacion>2011-01-08</fecIncorporacion>
+		<salEmp>1200000</salEmp>
+		<comisionE>400000</comisionE>
+		<cargoE>Asesor</cargoE>
+		<jefeID>31.840.269</jefeID>
+		<codDepto>1200</codDepto>
+	</empleado>
+	<empleado nDIEmp="12.103.444">
+		<nomEmp>Sarah Kerrigan</nomEmp>
+		<sexEmp>F</sexEmp>
+		<fecNac>2001-04-05</fecNac>
+		<fecIncorporacion>2024-05-31</fecIncorporacion>
+		<salEmp>800000</salEmp>
+		<comisionE>3500000</comisionE>
+		<cargoE>Vendedor</cargoE>
+		<jefeID>16.211.38</jefeID>
+		<codDepto>2200</codDepto>
+	</empleado>
+</empleados_departamentos>

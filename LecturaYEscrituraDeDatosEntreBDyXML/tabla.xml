@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleados>
+    <row>
+        <nDIEmp>1.130.222</nDIEmp>
+        <nomEmp>José Giraldo</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1985-01-20</fecNac>
+        <fecIncorporacion>2000-11-01</fecIncorporacion>
+        <salEmp>1200000.0</salEmp>
+        <comisionE>400000.0</comisionE>
+        <cargoE>Asesor</cargoE>
+        <jefeID>22.222.222</jefeID>
+        <codDepto>3500</codDepto>
+    </row>
+    <row>
+        <nDIEmp>1.130.333</nDIEmp>
+        <nomEmp>Pedro Blanco</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1987-10-28</fecNac>
+        <fecIncorporacion>2000-10-01</fecIncorporacion>
+        <salEmp>800000.0</salEmp>
+        <comisionE>3000000.0</comisionE>
+        <cargoE>Vendedor</cargoE>
+        <jefeID>31.178.144</jefeID>
+        <codDepto>2000</codDepto>
+    </row>
+    <row>
+        <nDIEmp>1.130.444</nDIEmp>
+        <nomEmp>Jesús Alfonso</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1988-03-14</fecNac>
+        <fecIncorporacion>2000-10-01</fecIncorporacion>
+        <salEmp>800000.0</salEmp>
+        <comisionE>3500000.0</comisionE>
+        <cargoE>Vendedor</cargoE>
+        <jefeID>31.178.144</jefeID>
+        <codDepto>2000</codDepto>
+    </row>
+    <row>
+        <nDIEmp>1.130.555</nDIEmp>
+        <nomEmp>Julián Mora</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1989-07-03</fecNac>
+        <fecIncorporacion>2000-10-01</fecIncorporacion>
+        <salEmp>800000.0</salEmp>
+        <comisionE>3100000.0</comisionE>
+        <cargoE>Vendedor</cargoE>
+        <jefeID>31.178.144</jefeID>
+        <codDepto>2200</codDepto>
+    </row>
+    <row>
+        <nDIEmp>1.130.666</nDIEmp>
+        <nomEmp>Manuel Millán</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1990-12-08</fecNac>
+        <fecIncorporacion>2004-06-01</fecIncorporacion>
+        <salEmp>800000.0</salEmp>
+        <comisionE>3700000.0</comisionE>
+        <cargoE>Vendedor</cargoE>
+        <jefeID>31.178.144</jefeID>
+        <codDepto>2300</codDepto>
+    </row>
+    <row>
+        <nDIEmp>1.130.777</nDIEmp>
+        <nomEmp>Marcos Cortez</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1986-06-23</fecNac>
+        <fecIncorporacion>2000-04-16</fecIncorporacion>
+        <salEmp>2550000.0</salEmp>
+        <comisionE>500000.0</comisionE>
+        <cargoE>Mecánico</cargoE>
+        <jefeID>333.333.333</jefeID>
+        <codDepto>4000</codDepto>
+    </row>
+    <row>
+        <nDIEmp>1.130.782</nDIEmp>
+        <nomEmp>Antonio Gil</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1980-01-23</fecNac>
+        <fecIncorporacion>2010-04-16</fecIncorporacion>
+        <salEmp>850000.0</salEmp>
+        <comisionE>1500000.0</comisionE>
+        <cargoE>Técnico</cargoE>
+        <jefeID>16.211.383</jefeID>
+        <codDepto>1500</codDepto>
+    </row>
+    <row>
+        <nDIEmp>1.751.219</nDIEmp>
+        <nomEmp>Melissa Roa</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>1960-06-19</fecNac>
+        <fecIncorporacion>2001-03-16</fecIncorporacion>
+        <salEmp>2250000.0</salEmp>
+        <comisionE>2500000.0</comisionE>
+        <cargoE>Vendedor</cargoE>
+        <jefeID>31.178.144</jefeID>
+        <codDepto>2100</codDepto>
+    </row>
+    <row>
+        <nDIEmp>11.111.111</nDIEmp>
+        <nomEmp>Irene Díaz</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>1979-09-28</fecNac>
+        <fecIncorporacion>2004-06-01</fecIncorporacion>
+        <salEmp>1050000.0</salEmp>
+        <comisionE>200000.0</comisionE>
+        <cargoE>Mecánico</cargoE>
+        <jefeID>333.333.333</jefeID>
+        <codDepto>4200</codDepto>
+    </row>
+    <row>
+        <nDIEmp>12.103.444</nDIEmp>
+        <nomEmp>Sarah Kerrigan</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>2001-04-05</fecNac>
+        <fecIncorporacion>2024-11-16</fecIncorporacion>
+        <salEmp>800000.0</salEmp>
+        <comisionE>3500000.0</comisionE>
+        <cargoE>Vendedor</cargoE>
+        <jefeID>16.211.383</jefeID>
+        <codDepto>2200</codDepto>
+    </row>
+    <row>
+        <nDIEmp>16.211.383</nDIEmp>
+        <nomEmp>Luis Pérez</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1956-02-25</fecNac>
+        <fecIncorporacion>2000-01-01</fecIncorporacion>
+        <salEmp>5050000.0</salEmp>
+        <comisionE>0.0</comisionE>
+        <cargoE>Director</cargoE>
+        <jefeID>31.840.269</jefeID>
+        <codDepto>1500</codDepto>
+    </row>
+    <row>
+        <nDIEmp>16.759.060</nDIEmp>
+        <nomEmp>Darío Casas</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1960-04-05</fecNac>
+        <fecIncorporacion>1992-11-01</fecIncorporacion>
+        <salEmp>4500000.0</salEmp>
+        <comisionE>500000.0</comisionE>
+        <cargoE>Investigador</cargoE>
+        <jefeID>31.840.269</jefeID>
+        <codDepto>3000</codDepto>
+    </row>
+    <row>
+        <nDIEmp>19.709.802</nDIEmp>
+        <nomEmp>William Daza</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1982-10-09</fecNac>
+        <fecIncorporacion>1999-12-16</fecIncorporacion>
+        <salEmp>2250000.0</salEmp>
+        <comisionE>1000000.0</comisionE>
+        <cargoE>Investigador</cargoE>
+        <jefeID>16.759.060</jefeID>
+        <codDepto>3000</codDepto>
+    </row>
+    <row>
+        <nDIEmp>2.130.444</nDIEmp>
+        <nomEmp>Samir Duran</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1990-11-25</fecNac>
+        <fecIncorporacion>2024-11-17</fecIncorporacion>
+        <salEmp>1200000.0</salEmp>
+        <comisionE>400000.0</comisionE>
+        <cargoE>Asesor</cargoE>
+        <jefeID>31.840.269</jefeID>
+        <codDepto>1200</codDepto>
+    </row>
+    <row>
+        <nDIEmp>22.222.222</nDIEmp>
+        <nomEmp>Carla López</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>1975-05-11</fecNac>
+        <fecIncorporacion>2005-07-16</fecIncorporacion>
+        <salEmp>4500000.0</salEmp>
+        <comisionE>500000.0</comisionE>
+        <cargoE>Jefe Mercadeo</cargoE>
+        <jefeID>31.840.269</jefeID>
+        <codDepto>3500</codDepto>
+    </row>
+    <row>
+        <nDIEmp>22.222.333</nDIEmp>
+        <nomEmp>Carlos Rozo</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1975-05-11</fecNac>
+        <fecIncorporacion>2001-09-16</fecIncorporacion>
+        <salEmp>750000.0</salEmp>
+        <comisionE>500000.0</comisionE>
+        <cargoE>Vigilante</cargoE>
+        <jefeID>31.840.269</jefeID>
+        <codDepto>3500</codDepto>
+    </row>
+    <row>
+        <nDIEmp>31.174.099</nDIEmp>
+        <nomEmp>Diana Solarte</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>1957-11-19</fecNac>
+        <fecIncorporacion>1990-05-16</fecIncorporacion>
+        <salEmp>1250000.0</salEmp>
+        <comisionE>500000.0</comisionE>
+        <cargoE>Secretaria</cargoE>
+        <jefeID>31.840.269</jefeID>
+        <codDepto>1000</codDepto>
+    </row>
+    <row>
+        <nDIEmp>31.178.144</nDIEmp>
+        <nomEmp>Rosa Angulo</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>1957-03-15</fecNac>
+        <fecIncorporacion>1998-08-16</fecIncorporacion>
+        <salEmp>3250000.0</salEmp>
+        <comisionE>3500000.0</comisionE>
+        <cargoE>Jefe Ventas</cargoE>
+        <jefeID>31.840.269</jefeID>
+        <codDepto>2000</codDepto>
+    </row>
+    <row>
+        <nDIEmp>31.840.269</nDIEmp>
+        <nomEmp>María Rojas</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>1959-01-15</fecNac>
+        <fecIncorporacion>1990-05-16</fecIncorporacion>
+        <salEmp>6250000.0</salEmp>
+        <comisionE>1500000.0</comisionE>
+        <cargoE>Gerente</cargoE>
+        <jefeID>NULL</jefeID>
+        <codDepto>1000</codDepto>
+    </row>
+    <row>
+        <nDIEmp>333.333.333</nDIEmp>
+        <nomEmp>Elisa Rojas</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>1979-09-28</fecNac>
+        <fecIncorporacion>2004-06-01</fecIncorporacion>
+        <salEmp>3000000.0</salEmp>
+        <comisionE>1000000.0</comisionE>
+        <cargoE>Jefe Mecánicos</cargoE>
+        <jefeID>31.840.269</jefeID>
+        <codDepto>4000</codDepto>
+    </row>
+    <row>
+        <nDIEmp>333.333.334</nDIEmp>
+        <nomEmp>Marisol Pulido</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>1979-10-01</fecNac>
+        <fecIncorporacion>1990-05-16</fecIncorporacion>
+        <salEmp>3250000.0</salEmp>
+        <comisionE>1000000.0</comisionE>
+        <cargoE>Investigador</cargoE>
+        <jefeID>16.759.060</jefeID>
+        <codDepto>3000</codDepto>
+    </row>
+    <row>
+        <nDIEmp>333.333.335</nDIEmp>
+        <nomEmp>Ana Moreno</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>1992-01-05</fecNac>
+        <fecIncorporacion>2004-06-01</fecIncorporacion>
+        <salEmp>1200000.0</salEmp>
+        <comisionE>400000.0</comisionE>
+        <cargoE>Secretaria</cargoE>
+        <jefeID>16.759.060</jefeID>
+        <codDepto>3000</codDepto>
+    </row>
+    <row>
+        <nDIEmp>333.333.336</nDIEmp>
+        <nomEmp>Carolina Ríos</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>1992-02-15</fecNac>
+        <fecIncorporacion>2000-10-01</fecIncorporacion>
+        <salEmp>1250000.0</salEmp>
+        <comisionE>500000.0</comisionE>
+        <cargoE>Secretaria</cargoE>
+        <jefeID>16.211.383</jefeID>
+        <codDepto>1500</codDepto>
+    </row>
+    <row>
+        <nDIEmp>333.333.337</nDIEmp>
+        <nomEmp>Edith Muñoz</nomEmp>
+        <sexEmp>F</sexEmp>
+        <fecNac>1992-03-31</fecNac>
+        <fecIncorporacion>2000-10-01</fecIncorporacion>
+        <salEmp>800000.0</salEmp>
+        <comisionE>3600000.0</comisionE>
+        <cargoE>Vendedor</cargoE>
+        <jefeID>31.178.144</jefeID>
+        <codDepto>2100</codDepto>
+    </row>
+    <row>
+        <nDIEmp>444.444</nDIEmp>
+        <nomEmp>Abel Gómez</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1939-12-24</fecNac>
+        <fecIncorporacion>2000-10-01</fecIncorporacion>
+        <salEmp>1050000.0</salEmp>
+        <comisionE>200000.0</comisionE>
+        <cargoE>Mecánico</cargoE>
+        <jefeID>333.333.333</jefeID>
+        <codDepto>4300</codDepto>
+    </row>
+    <row>
+        <nDIEmp>737.689</nDIEmp>
+        <nomEmp>Mario Llano</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1945-08-30</fecNac>
+        <fecIncorporacion>1990-05-16</fecIncorporacion>
+        <salEmp>2250000.0</salEmp>
+        <comisionE>2500000.0</comisionE>
+        <cargoE>Vendedor</cargoE>
+        <jefeID>31.178.144</jefeID>
+        <codDepto>2300</codDepto>
+    </row>
+    <row>
+        <nDIEmp>768.782</nDIEmp>
+        <nomEmp>Joaquín Rosas</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1947-07-07</fecNac>
+        <fecIncorporacion>1990-05-16</fecIncorporacion>
+        <salEmp>2250000.0</salEmp>
+        <comisionE>2500000.0</comisionE>
+        <cargoE>Vendedor</cargoE>
+        <jefeID>31.178.144</jefeID>
+        <codDepto>2200</codDepto>
+    </row>
+    <row>
+        <nDIEmp>888.888</nDIEmp>
+        <nomEmp>Iván Duarte</nomEmp>
+        <sexEmp>M</sexEmp>
+        <fecNac>1955-08-12</fecNac>
+        <fecIncorporacion>1998-05-16</fecIncorporacion>
+        <salEmp>1050000.0</salEmp>
+        <comisionE>200000.0</comisionE>
+        <cargoE>Mecánico</cargoE>
+        <jefeID>333.333.333</jefeID>
+        <codDepto>4100</codDepto>
+    </row>
+</empleados>

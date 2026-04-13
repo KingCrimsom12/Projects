@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Disco</title>
+    <link rel="stylesheet" th:href="@{/CSS/Style.css}">
+</head>
+<body>
+<h1>Formulario de Disco</h1>
+
+<form th:action="@{/submitDisc}" th:object="${disc}" method="post">
+
+    <label for="id">Id:</label>
+    <input type="text" th:field="*{id}" id="id" readonly />
+    <br />
+
+    <input type="hidden" th:field="*{id}" />
+
+    <br />
+
+    <label for="title">Título:</label>
+    <input type="text" th:field="*{title}" id="title" required />
+
+    <br />
+
+    <label for="author">Autor:</label>
+    <input type="text" th:field="*{author}" id="author" required />
+
+    <br />
+
+    <label for="tracks">Número de Pistas:</label>
+    <input type="number" th:field="*{tracks}" id="tracks" required />
+
+    <br />
+
+    <label for="year">Año:</label>
+    <input type="date" th:field="*{year}" id="year" required />
+
+    <br />
+
+    <label for="price">Precio:</label>
+    <input type="number" th:field="*{price}" id="price" step="0.01" required />
+
+    <br />
+
+    <button type="submit">Enviar</button>
+</form>
+
+<a th:href="@{/discs}">
+    <button>Volver al inicio</button>
+</a>
+
+<div th:if="${mensaje}">
+    <p th:text="${mensaje}"></p>
+</div>
+
+</body>
+</html>

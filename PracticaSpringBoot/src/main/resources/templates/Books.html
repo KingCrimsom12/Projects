@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalogo de Libros</title>
+    <link rel="stylesheet" th:href="@{/CSS/Style.css}">
+</head>
+<body>
+
+<h1>Libros</h1>
+
+<form action="/searchBooks" method="get">
+    <label for="searchCriteria">Buscar por:</label>
+    <select name="searchCriteria" id="searchCriteria">
+        <option value="title" th:selected="${searchCriteria == 'title'}">Título</option>
+        <option value="isbn" th:selected="${searchCriteria == 'isbn'}">ISBN</option>
+        <option value="author" th:selected="${searchCriteria == 'author'}">Autor</option>
+        <option value="publisher" th:selected="${searchCriteria == 'publisher'}">Editorial</option>
+    </select>
+
+    <label for="searchValue">Valor de búsqueda:</label>
+    <input type="text" name="searchValue" id="searchValue" required>
+
+    <button type="submit">Buscar</button>
+</form>
+
+<table>
+    <thead>
+    <tr><th>ID</th><th>Título</th><th>Autor</th><th>Publisher</th><th>ISBN</th><th>Precio</th><th>Actions</th></tr>
+    </thead>
+    <tbody>
+    <tr th:each="libro : ${listado}">
+        <td th:text="${libro.id}"></td>
+        <td th:text="${libro.title}"></td>
+        <td th:text="${libro.author}"></td>
+        <td th:text="${libro.publisher}"></td>
+        <td th:text="${libro.isbn}"></td>
+        <td th:text="${libro.price}"></td>
+        <td><a th:href="@{/bookform/{id}(id=${libro.id})}"><button>Modificar</button></a>
+            <a th:href="@{/deleteBooks/{id}(id = ${libro.id})}"><button>Eliminar</button></a></td>
+    </tr>
+    </tbody>
+</table>
+
+<br>
+<a th:href="@{/bookform}">
+<button>Nuevo libro</button>
+</a>
+
+<a th:href="@{/index}">
+    <button>Volver al inicio</button>
+</a>
+
+<br />
+
+<div th:if="${mensaje}">
+    <p th:text="${mensaje}"></p>
+</div>
+
+</body>
+</html>

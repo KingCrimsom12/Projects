@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Películas</title>
+    <link rel="stylesheet" th:href="@{/CSS/Style.css}">
+</head>
+<body>
+
+<h1>Películas</h1>
+
+<form action="/searchFilms" method="get">
+    <label for="searchCriteria">Buscar por:</label>
+    <select name="searchCriteria" id="searchCriteria">
+        <option value="title" th:selected="${searchCriteria == 'title'}">Título</option>
+        <option value="year" th:selected="${searchCriteria == 'year'}">Año</option>
+        <option value="format" th:selected="${searchCriteria == 'format'}">Formato</option>
+        <option value="film" th:selected="${searchCriteria == 'film'}">Director</option>
+    </select>
+
+    <label for="searchValue">Valor de búsqueda:</label>
+    <input type="text" name="searchValue" id="searchValue" required>
+
+    <button type="submit">Buscar</button>
+</form>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Título</th>
+        <th>Año</th>
+        <th>Formato</th>
+        <th>Precio</th>
+        <th>Director</th>
+        <th>Acciones</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="film : ${listado}">
+        <td th:text="${film.id}"></td>
+        <td th:text="${film.title}"></td>
+        <td th:text="${film.year}"></td>
+        <td th:text="${film.format}"></td>
+        <td th:text="${film.price}"></td>
+        <td th:text="${film.filmDirector}"></td>
+        <td>
+            <a th:href="@{/filmform/{id}(id=${film.id})}"><button>Modificar</button></a>
+            <a th:href="@{/deleteFilms/{id}(id=${film.id})}"><button>Eliminar</button></a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<br>
+<a th:href="@{/filmform}">
+    <button>Nueva película</button>
+</a>
+
+<a th:href="@{/index}">
+    <button>Volver al inicio</button>
+</a>
+
+<br />
+
+<div th:if="${mensaje}">
+    <p th:text="${mensaje}"></p>
+</div>
+
+</body>
+</html>

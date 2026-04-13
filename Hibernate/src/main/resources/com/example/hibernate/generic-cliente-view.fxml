@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="437.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="47.0" layoutY="54.0" text="Cliente ID" />
+      <TextField fx:id="labelD" layoutX="112.0" layoutY="50.0" />
+      <Label layoutX="299.0" layoutY="54.0" text="CedulaRec" />
+      <TextField fx:id="labelcedula" layoutX="381.0" layoutY="50.0" />
+      <Button fx:id="btnCliente" layoutX="47.0" layoutY="374.0" mnemonicParsing="false" onMouseClicked="#OnClickedButton" prefHeight="25.0" prefWidth="501.0" text="Agregar" />
+      <Label layoutX="47.0" layoutY="109.0" text="Nombre" />
+      <TextField fx:id="labelNombre" layoutX="112.0" layoutY="105.0" />
+      <Label layoutX="299.0" layoutY="109.0" text="Nombre Contacto" />
+      <TextField fx:id="labelContacto" layoutX="408.0" layoutY="105.0" />
+      <Label layoutX="47.0" layoutY="177.0" text="Direccion" />
+      <TextField fx:id="labelDireccion" layoutX="112.0" layoutY="173.0" />
+      <Label layoutX="299.0" layoutY="177.0" text="Fax" />
+      <TextField fx:id="labelFax" layoutX="355.0" layoutY="173.0" />
+      <Label layoutX="47.0" layoutY="240.0" text="Email" />
+      <TextField fx:id="labelEmail" layoutX="112.0" layoutY="236.0" />
+      <Label layoutX="299.0" layoutY="240.0" text="Movil" />
+      <TextField fx:id="labelmovil" layoutX="381.0" layoutY="236.0" />
+      <Label layoutX="182.0" layoutY="313.0" text="Fijo" />
+      <TextField fx:id="labelFijo" layoutX="225.0" layoutY="309.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="291.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="48.0" layoutY="43.0" text="Empleado ID" />
+      <TextField fx:id="labelID" layoutX="124.0" layoutY="39.0" />
+      <Label layoutX="300.0" layoutY="43.0" text="Nombre" />
+      <TextField fx:id="labelNombre" layoutX="382.0" layoutY="39.0" />
+      <Button fx:id="btnCategoria" layoutX="11.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#OnClickedButton" prefHeight="25.0" prefWidth="579.0" text="Agregar" />
+      <Label layoutX="48.0" layoutY="113.0" text="Apellido" />
+      <TextField fx:id="labelApellido" layoutX="104.0" layoutY="109.0" />
+      <Label layoutX="48.0" layoutY="191.0" text="Report" />
+      <TextField fx:id="labelReport" layoutX="104.0" layoutY="187.0" />
+      <Label layoutX="301.0" layoutY="113.0" text="Fecha_Nac" />
+      <TextField fx:id="labelFechaNac" layoutX="372.0" layoutY="109.0" />
+      <Label layoutX="301.0" layoutY="191.0" text="Extension" />
+      <TextField fx:id="labelExtension" layoutX="357.0" layoutY="187.0" />
+   </children>
+</AnchorPane>
